@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meme-O-Matic Meme Generator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+      <h1>Meme-O-Matic</h1>
+      <i>Fill out the form to start generating memes!</i>
+      <form id="memeForm" action="">
+          <label for="imageURL">Image URL:</label> <input type="text" name ="imageURL" id="imageURL" value="Insert the URL of your image">
+          <label for="topText">Top Text</label> <input type="text" name="topText" id="topText" value='Add any text you want at the top of the image'>
+          <label for="bottomText">Bottom Text</label> <input type="text" name="bottomText" id="bottomText" value='Add any text you want at the bottom of the image'>
+          <input type="button" value="Add Meme" onclick="generate()">
+
+      </form>
+  </header>
+
+  <div class="container">
+
+
+
+  </div>
+
+</body>
+<script src="memegen.js"></script>
+</html>
